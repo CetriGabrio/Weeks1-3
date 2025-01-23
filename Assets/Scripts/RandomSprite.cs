@@ -23,3 +23,11 @@ public class RandomSprite : MonoBehaviour
         }
     }
 }
+
+public class Destroyable : MonoBehaviour
+{
+    private void OnMouseDown()
+    {
+        Destroy(gameObject);
+    }
+}
