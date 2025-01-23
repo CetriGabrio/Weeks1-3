@@ -5,12 +5,9 @@ using UnityEngine;
 
 public class TrickShot : MonoBehaviour
 {
-
-    [SerializeField]
-    float speed = 0.2f;
-
     [Range(0, 1)]
     public float t;
+    [SerializeField] public float speed = 10;
     public AnimationCurve curve;
 
 
@@ -23,17 +20,10 @@ public class TrickShot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 pos = transform.position;
-        pos.x += speed;
-
-        Vector2 squareInScreenSpace = Camera.main.WorldToScreenPoint(pos);
-
-        if (squareInScreenSpace.x < 0 || squareInScreenSpace.x > Screen.width)
+        if (Input.GetKey(KeyCode.Space))
         {
-            speed = speed * -1;
+            transform.position += transform.up * speed * Time.deltaTime; //* //curve.Evaluate(t);
+            t += t * Time.deltaTime;
         }
-
-        transform.position = pos;
-
     }
 }
