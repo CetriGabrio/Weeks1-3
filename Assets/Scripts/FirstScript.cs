@@ -5,8 +5,8 @@ using UnityEngine;
 
 public class FirstScript : MonoBehaviour
 {
-    [SerializeField]
-    float speed = 0.2f;
+    [SerializeField] float speed = 0.2f;
+    [SerializeField] float rotationSpeed = 0.01f;
 
     // Start is called before the first frame update
     void Start()
@@ -28,6 +28,7 @@ public class FirstScript : MonoBehaviour
         }
 
         transform.position = pos;
-        
+
+        transform.Rotate(0, 0, rotationSpeed);
     }
 }
