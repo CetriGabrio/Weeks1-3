@@ -29,6 +29,6 @@ public class FirstScript : MonoBehaviour
 
         transform.position = pos;
 
-        transform.Rotate(0, 0, rotationSpeed);
+        transform.Rotate(0, 0, -rotationSpeed);
     }
 }
