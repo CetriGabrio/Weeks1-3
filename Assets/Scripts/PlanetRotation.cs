@@ -16,6 +16,7 @@ public class PlanetRotation : MonoBehaviour
     void Update()
     {
         transform.Rotate(0, 0, rotationSpeed);
+        transform.Translate(0, moveSpeed, 0);
     }
 }
 
