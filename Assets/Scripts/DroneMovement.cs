@@ -11,10 +11,12 @@ public class DroneMovement : MonoBehaviour
 
     public Vector2 start;
     public Vector3 end;
+
+    public float speed = 0.1f;
     // Start is called before the first frame update
     void Start()
     {
-        
+        t = 0;
     }
 
     // Update is called once per frame
@@ -22,6 +24,13 @@ public class DroneMovement : MonoBehaviour
     {
         //Vector2 scale = transform.localScale;
         //float x = Mathf.Lerp(0, 1, t);
+
+        t += Time.deltaTime * speed; 
+
+        if (t > 1)
+        {
+            t = 0; 
+        }
 
         transform.position = Vector2.Lerp(start, end, curve.Evaluate(t));
     }
