@@ -213,7 +213,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  start: {x: -9.85, y: -3.93}
+  start: {x: -9.85, y: -1.86}
   end: {x: -7, y: 6, z: 0}
   speed: 0.5
 --- !u!212 &388467624
@@ -258,7 +258,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 42449292, guid: 2697aec04f3a9b94bac06f9496dc4776, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.21530564, g: 0.4245283, b: 0.15419187, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -277,7 +277,7 @@ Transform:
   m_GameObject: {fileID: 388467622}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.85, y: -3.93, z: 0}
+  m_LocalPosition: {x: -9.85, y: -1.86, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -909,7 +909,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 42449292, guid: 2697aec04f3a9b94bac06f9496dc4776, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.4263645, g: 0.2741634, b: 0.5754717, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -928,7 +928,7 @@ Transform:
   m_GameObject: {fileID: 831579276}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.6, y: 2.14, z: 0}
+  m_LocalPosition: {x: -7.51, y: 0.21, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -960,10 +960,82 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.56053686
-      value: 0.59036154
+      time: 0.056231022
+      value: 0.46405083
+      inSlope: 1.3520242
+      outSlope: 1.3520242
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.23427343
+      value: 0.46564382
       inSlope: 1.4780118
       outSlope: 1.4780118
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.26770836
+      value: 0.22096372
+      inSlope: 0.07694855
+      outSlope: 0.07694855
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.35621575
+      value: 0.30641842
+      inSlope: -0.849737
+      outSlope: -0.849737
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.42697433
+      value: 0.45580992
+      inSlope: -0.31076396
+      outSlope: -0.31076396
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5612544
+      value: 0.21458572
+      inSlope: -1.3466657
+      outSlope: -1.3466657
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.65376645
+      value: 0.3518914
+      inSlope: -1.1042469
+      outSlope: -1.1042469
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.70413595
+      value: 0.493439
+      inSlope: -2.5442889
+      outSlope: -2.5442889
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.85787594
+      value: 0.3355343
+      inSlope: -1.4406748
+      outSlope: -1.4406748
       tangentMode: 0
       weightedMode: 0
       inWeight: 0.33333334
@@ -980,7 +1052,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  start: {x: -3.6, y: 2.14}
+  start: {x: -7.51, y: 0.21}
   end: {x: 3, y: -4, z: 0}
   speed: 0.5
 --- !u!1 &944925852
@@ -1090,7 +1162,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 495261402, guid: 2697aec04f3a9b94bac06f9496dc4776, type: 3}
-  m_Color: {r: 0, g: 1, b: 0.028357267, a: 1}
+  m_Color: {r: 1, g: 0.9685757, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1552,7 +1624,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 495261402, guid: 2697aec04f3a9b94bac06f9496dc4776, type: 3}
-  m_Color: {r: 0, g: 0.04619026, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.90361226, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1684,7 +1756,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 495261402, guid: 2697aec04f3a9b94bac06f9496dc4776, type: 3}
-  m_Color: {r: 0.8584906, g: 0.10933607, b: 0.16850784, a: 1}
+  m_Color: {r: 1, g: 0.93989515, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
