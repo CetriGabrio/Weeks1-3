@@ -152,7 +152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71965fbe275ff024e950acc83f615f87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  t: 0
   curve:
     serializedVersion: 2
     m_Curve:
@@ -213,9 +212,10 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  t: 0
+  speed: 0.5
   start: {x: -8.59, y: -1.93}
   end: {x: -7, y: 6, z: 0}
-  speed: 0.5
 --- !u!212 &388467624
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -853,7 +853,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71965fbe275ff024e950acc83f615f87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  t: 0
   curve:
     serializedVersion: 2
     m_Curve:
@@ -959,9 +958,10 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  t: 0
+  speed: 0.5
   start: {x: -7.51, y: 0.21}
   end: {x: 3, y: -4, z: 0}
-  speed: 0.5
 --- !u!1 &944925852
 GameObject:
   m_ObjectHideFlags: 0
@@ -1762,7 +1762,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 1247484550, guid: 2697aec04f3a9b94bac06f9496dc4776, type: 3}
   m_Color: {r: 0.40503737, g: 0.4332864, b: 0.6981132, a: 1}
   m_FlipX: 0
