@@ -20,11 +20,5 @@ public class SpaceshipMovement : MonoBehaviour
         transform.Rotate(0, 0, -turnAmount);
         float moveAmount = Input.GetAxis("Vertical") * moveSpeed;
         transform.Translate(0, moveAmount, 0);
-
-
-        Vector3 pos = Camera.main.WorldToViewportPoint(transform.position);
-        pos.x = Mathf.Clamp01(pos.x);
-        pos.y = Mathf.Clamp01(pos.y);
-        transform.position = Camera.main.ViewportToWorldPoint(pos);
     }
 }
